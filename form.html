@@ -1,28 +1,60 @@
-<!Doctype html>
-<html>
-  <head>
-    <title>My portfolio</title>
-    <form>
-      <lable>Name:</lable>
-      <input type="text">
-        <br></br>
-        <label>Degree:</label>
-        <input type="text">
-          <br></br>
-          <lable>college</lable>
-          <input type:"text">
-            </form>
-          </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form practice</title>
+  <style>
+    h1{
+      color:blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>student registeration</h1>
+   <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br> <br>
+    <label for="email">email:</label>
+    <input type="text" id="email" required>
+    <br><br>
+    <label for="password">password:</label>
+    <input type="password" id="password" required> 
+    <br><br>
+    <label>gender:</label>
+    <br><br>
+    <label for="male">male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">female</label>
+    <input type="radio" id="female" name="gender">
+    <br><br>
+    <label for="course">select course</label>
+    <select id="course">
+      <option>information technology</option>
+      <option>ece</option>
+      <option>eee</option>
+      <option>mechanical</option>
+    </select>
+    <br><br>
+    <lable>skills:</lable>
+    <br><br>
+    <label for="java">java</label>
+      <input type="checkbox" id="java">
+      <label for="sql">sql</label>
+      <input type="checkbox" id="sql">
+      <br><br>
+      <label for="reason">reasons:</label>
+      <br><br>
+      <lable>why do you want to join this course?</label>
+        <br><br>
+        <textarea is="reason" rows="5" cols="40"></textarea>
+         
+    </label>
+    <br><br>
+    <button type="submit">register</button>
+    <button type="reset">reset</button>
+   </form>
+  
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
